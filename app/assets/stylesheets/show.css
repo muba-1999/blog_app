@@ -1,0 +1,42 @@
+.show-container {
+    display: flex;
+    border: 1px solid black;
+    gap: 2rem;
+    padding-block: 2rem;
+    width: min(95%, 70rem);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 2rem 1rem 10rem 1rem;
+}
+
+
+.delete {
+    border: 1px solid black;
+    background-color: red;
+    padding: 10px;
+    margin-right: 300px;
+    text-align: center;
+    float: right;
+}
+
+.edit {
+    border: 1px solid black;
+    background-color: blue;
+    padding: 10px;
+    margin-left: 200px;
+    text-align: center;
+    float: left;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+}
+
+textarea {
+    height: 300px;
+    width: 400px;
+}
